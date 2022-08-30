@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int segundos,minutos,horas;
+    printf("Escrevar qual o tempo de uma partida de futebol em segundos:");
+    scanf("%d",&segundos);
+    minutos=segundos/60;
+    horas=minutos/60;
+    printf("\n0 tempo da partida de futebol em segundos é:%d",segundos);
+    printf("\n0 tempo da partida de futebol em minutos é:%d",minutos);
+    printf("\n0 tempo da partida de futebol em horas é:%d",horas);
+    return 0;
+}
