@@ -1,0 +1,19 @@
+/* 4.Fazer um programa para ler um número de usuário e determinar se este número é par ou não par.*/*/
+
+#include <stdio.h>
+#include <math.h>
+
+int main
+{
+    int num;
+    printf("Escreva um numero");
+    scanf("%d",&num);
+    
+    if(num%2==0){
+      printf("número par");
+     }else{
+      printf("número ímpar");
+     }
+    
+    return 0;
+}
